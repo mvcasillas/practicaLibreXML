@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<biblioteca>
+    <objetosEnPrestamo>
+        <objeto type="libro">
+            <codigoObjeto>ABC1234!*</codigoObjeto>
+            <titulo></titulo>
+            <autor></autor>
+            <precio></precio>
+            <fecha></fecha>
+        </objeto>
+        <objeto type="pelicula">
+    
+        </objeto>
+        <objeto type="videojuego">
+    
+        </objeto>
+    </objetosEnPrestamo>
+    <socios>
+        <socio>
+            <codigoSocio>ABC1234!</codigoSocio>
+            <dni></dni>
+            <nombre></nombre>
+            <apellido></apellido>
+            <edad></edad>
+            <genero></genero>
+            <fechaAlta></fechaAlta>
+        </socio>
+    </socios>
+</biblioteca>
