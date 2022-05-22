@@ -60,6 +60,7 @@
         <xs:sequence>
             <xs:element name="codigoLibro" type="codigoObjeto"/>
             <xs:element name="titulo" type="xs:string"/>
+            <xs:element name="saga" type="xs:string" minOccurs="0" maxOccurs="1"/>
             <xs:element name="autor" type="persona" minOccurs="1"/>
             <xs:element name="precio" type="precio"/>
             <xs:element name="fecha" type="fecha"/>
@@ -70,6 +71,7 @@
     <xs:sequence>
         <xs:element name="codigoPeli" type="codigoObjeto"/>
         <xs:element name="titulo" type="xs:string"/>
+        <xs:element name="saga" type="xs:string" minOccurs="0" maxOccurs="1"/>
         <xs:element name="fecha" type="fecha"/>
         <xs:element name="director" type="persona" minOccurs="1"/>
         <xs:element name="precio" type="precio"/>    
@@ -80,6 +82,7 @@
     <xs:sequence>
         <xs:element name="codigoVideojuego" type="codigoObjeto"/>
         <xs:element name="titulo" type="xs:string"/>
+        <xs:element name="saga" type="xs:string" minOccurs="0" maxOccurs="1"/>
         <xs:element name="fecha" type="fecha"/>
         <xs:element name="plataforma" type="plataforma" minOccurs="1"/>
         <xs:element name="precio" type="precio"/>    
