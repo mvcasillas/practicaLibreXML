@@ -1,19 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca>
 
-<biblioteca>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="biblioSchema.xsd">
+
     <objetosEnPrestamo>
         <objeto type="libro">
-            <codigoObjeto>ABC1234!*</codigoObjeto>
+            <codigoLibro>ABC1234aa</codigoLibro>
             <titulo></titulo>
-            <autor></autor>
+            <autor>
+                <nombre></nombre>
+                <apellido></apellido>
+            </autor>
             <precio></precio>
             <fecha></fecha>
         </objeto>
         <objeto type="pelicula">
-    
+            <codigoPeli></codigoPeli>
+            <titulo></titulo>
+            <fecha></fecha>
+            <director>
+                <nombre></nombre>
+                <apellido></apellido>
+            </director>
+            <precio></precio>
         </objeto>
         <objeto type="videojuego">
-    
+            <codigoVideojuego></codigoVideojuego>
+            <titulo></titulo>
+            <fecha></fecha>
+            <plataforma></plataforma>
+            <precio></precio>
         </objeto>
     </objetosEnPrestamo>
     <socios>

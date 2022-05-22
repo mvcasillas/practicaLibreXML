@@ -1,2 +1,111 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:simpleType name="codigoObjeto">
+    <xs:union>
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[A-Z]{3}[0-9]{4}[^\sA-Za-z0-9]{2}"/>
+            </xs:restriction>
+        </xs:simpleType>
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value=""/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:union>
+</xs:simpleType>
+
+<xs:simpleType name="fecha">
+    <xs:restriction base="xs:integer">
+        <xs:minInclusive value="0"/>
+        <xs:maxInclusive value="2022"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="precio">
+    <xs:restriction base="xs:decimal">
+        <xs:minInclusive value="0"/>
+        <xs:maxInclusive value="100"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:complexType name="persona">
+    <xs:sequence>
+        <xs:element name="nombre" type="xs:string" minOccurs="1"/>
+        <xs:element name="apellido" type="xs:string" minOccurs="1"/>
+    </xs:sequence>
+</xs:complexType>
+
+<xs:simpleType name="plataforma">
+    <xs:restriction base="xs:string">
+        <xs:enumeration value="PS1"/>
+        <xs:enumeration value="PS2"/>
+        <xs:enumeration value="PS3"/>
+        <xs:enumeration value="PS4"/>
+        <xs:enumeration value="PS5"/>
+        <xs:enumeration value="NDS"/>
+        <xs:enumeration value="N3DS"/>
+        <xs:enumeration value="Wii"/>
+        <xs:enumeration value="WiiU"/>
+        <xs:enumeration value="Switch"/>
+        <xs:enumeration value="PC"/>
+        <xs:enumeration value="XBOX"/>
+        <xs:enumeration value="XBOXOne"/>
+    </xs:restriction>
+</xs:simpleType>
+
+
+    <xs:complexType name="libro">
+        <xs:sequence>
+            <xs:element name="codigoLibro" type="codigoObjeto"/>
+            <xs:element name="titulo" type="xs:string"/>
+            <xs:element name="autor" type="persona" minOccurs="1"/>
+            <xs:element name="precio" type="precio"/>
+            <xs:element name="fecha" type="fecha"/>
+        </xs:sequence>
+    </xs:complexType>
+
+<xs:complexType name="pelicula">
+    <xs:sequence>
+        <xs:element name="codigoPeli" type="codigoObjeto"/>
+        <xs:element name="titulo" type="xs:string"/>
+        <xs:element name="fecha" type="fecha"/>
+        <xs:element name="director" type="persona" minOccurs="1"/>
+        <xs:element name="precio" type="precio"/>    
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="videojuego">
+    <xs:sequence>
+        <xs:element name="codigoVideojuego" type="codigoObjeto"/>
+        <xs:element name="titulo" type="xs:string"/>
+        <xs:element name="fecha" type="fecha"/>
+        <xs:element name="plataforma" type="plataforma" minOccurs="1"/>
+        <xs:element name="precio" type="precio"/>    
+    </xs:sequence>
+</xs:complexType>
+
+
+<xs:element name="biblioteca">
+    <xs:complexType>
+        <xs:all>
+            <xs:element name="objetosEnPrestamo">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="objeto" minOccurs="1" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="socios">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="socio" minOccurs="1" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:all>
+    </xs:complexType>
+</xs:element>
+
+</xs:schema>
