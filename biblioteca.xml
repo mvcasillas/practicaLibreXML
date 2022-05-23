@@ -259,6 +259,15 @@
             <plataforma>PC</plataforma>
             <precio>9.99</precio>
         </videojuego>
+        <videojuego>
+            <codigoVideojuego>RPG6626!!</codigoVideojuego>
+            <titulo>The Legend of Zelda: Breath of the Wild</titulo>
+            <saga>The Legend of Zelda</saga>
+            <fecha>2017</fecha>
+            <plataforma>WiiU</plataforma>
+            <plataforma>Switch</plataforma>
+            <precio>45.99</precio>
+        </videojuego>
         
 
     </objetosEnPrestamo>
