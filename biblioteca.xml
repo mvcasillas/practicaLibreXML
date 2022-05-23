@@ -54,9 +54,7 @@
             <titulo>Juego de tronos</titulo>
             <saga>Canción de hielo y fuego</saga>
             <autor>
-                <nombre>George</nombre>
-                <nombre>Raymond</nombre>
-                <nombre>Richardd</nombre>
+                <nombre>George R. R.</nombre>
                 <apellido>Martin</apellido>
             </autor>
             <precio>22</precio>
@@ -67,9 +65,7 @@
             <titulo>Choque de reyes</titulo>
             <saga>Canción de hielo y fuego</saga>
             <autor>
-                <nombre>George</nombre>
-                <nombre>Raymond</nombre>
-                <nombre>Richardd</nombre>
+                <nombre>George R. R.</nombre>
                 <apellido>Martin</apellido>
             </autor>
             <precio>22</precio>
