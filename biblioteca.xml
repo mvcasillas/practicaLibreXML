@@ -54,7 +54,9 @@
             <titulo>Juego de tronos</titulo>
             <saga>Canción de hielo y fuego</saga>
             <autor>
-                <nombre>George R. R.</nombre>
+                <nombre>George</nombre>
+                <nombre>Raymond</nombre>
+                <nombre>Richardd</nombre>
                 <apellido>Martin</apellido>
             </autor>
             <precio>22</precio>
@@ -65,7 +67,9 @@
             <titulo>Choque de reyes</titulo>
             <saga>Canción de hielo y fuego</saga>
             <autor>
-                <nombre>George R. R.</nombre>
+                <nombre>George</nombre>
+                <nombre>Raymond</nombre>
+                <nombre>Richardd</nombre>
                 <apellido>Martin</apellido>
             </autor>
             <precio>22</precio>
@@ -265,12 +269,14 @@
     <socios>
         <socio>
             <codigoSocio>ABC1234!</codigoSocio>
-            <dni></dni>
-            <nombre></nombre>
-            <apellido></apellido>
-            <edad></edad>
-            <genero></genero>
-            <fechaAlta></fechaAlta>
+            <dni>12345678A</dni>
+            <nombreCompleto>
+                <nombre>Lu</nombre>
+                <apellido>Han</apellido>
+            </nombreCompleto>
+            <edad>15</edad>
+            <genero>masculino</genero>
+            <fechaAlta>10-12-2002</fechaAlta>
         </socio>
     </socios>
 </biblioteca>
