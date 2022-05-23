@@ -112,4 +112,6 @@
 </xsl:stylesheet>
 
 
-<!--  if test="etiqueta" comprueba si existe o no existe, es una manera de comprobar el tipo    -->
+<!--  if test="etiqueta" comprueba si existe o no existe, es una manera de comprobar el tipo    
+
+ATENCIÓN, FALTA UN CHOOSE Y UNA LISTA DEBAJO DE LA TABLA -->
