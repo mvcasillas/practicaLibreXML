@@ -6,8 +6,8 @@
     xsi:noNamespaceSchemaLocation="biblioSchema.xsd">
 
     <objetosEnPrestamo>
-        <objeto type="libro">
-            <codigoLibro>FAsdfsNgf234*^aaaaa</codigoLibro>
+        <libro>
+            <codigoLibro>FAN5656¿?</codigoLibro>
             <titulo>El imperio final</titulo>
             <saga>Nacidos de la bruma</saga>
             <autor>
@@ -16,8 +16,8 @@
             </autor>
             <precio>15.50</precio>
             <fecha>2006</fecha>
-        </objeto>
-        <objeto type="libro">
+        </libro>
+        <libro>
             <codigoLibro>FAN1235**</codigoLibro>
             <titulo>El pozo de la ascensión</titulo>
             <saga>Nacidos de la bruma</saga>
@@ -27,8 +27,8 @@
             </autor>
             <precio>15.50</precio>
             <fecha>2007</fecha>
-        </objeto>
-        <objeto type="libro">
+        </libro>
+        <libro>
             <codigoLibro>FAN1236!*</codigoLibro>
             <titulo>El héroe de las eras</titulo>
             <saga>Nacidos de la bruma</saga>
@@ -38,8 +38,8 @@
             </autor>
             <precio>15.50</precio>
             <fecha>2008</fecha>
-        </objeto>
-        <objeto type="libro">
+        </libro>
+        <libro>
             <codigoLibro>PSI5775¿¿</codigoLibro>
             <titulo>Por si las voces vuelven</titulo>
             <autor>
@@ -48,8 +48,8 @@
             </autor>
             <precio>17</precio>
             <fecha>2021</fecha>
-        </objeto>
-        <objeto type="libro">
+        </libro>
+        <libro>
             <codigoLibro>FAN8888,,</codigoLibro>
             <titulo>Juego de tronos</titulo>
             <saga>Canción de hielo y fuego</saga>
@@ -59,8 +59,8 @@
             </autor>
             <precio>22</precio>
             <fecha>1996</fecha>
-        </objeto>
-        <objeto type="libro">
+        </libro>
+        <libro>
             <codigoLibro>FAN8889,,</codigoLibro>
             <titulo>Choque de reyes</titulo>
             <saga>Canción de hielo y fuego</saga>
@@ -70,8 +70,8 @@
             </autor>
             <precio>22</precio>
             <fecha>1998</fecha>
-        </objeto>
-        <objeto type="libro">
+        </libro>
+        <libro>
             <codigoLibro>SCI7445!?</codigoLibro>
             <titulo>Frankenstein o el moderno Prometeo</titulo>
             <autor>
@@ -80,10 +80,10 @@
             </autor>
             <precio>17.50</precio>
             <fecha>1818</fecha>
-        </objeto>
+        </libro>
 
 
-        <objeto type="pelicula">
+        <pelicula>
             <codigoPeli>ACC8596!!</codigoPeli>
             <titulo>Los Vengadores: Infinity War</titulo>
             <saga>Marvel Cinematic Universe</saga>
@@ -97,8 +97,8 @@
                 <apellido>Russo</apellido>
             </director>
             <precio>3.99</precio>
-        </objeto>
-        <objeto type="pelicula">
+        </pelicula>
+        <pelicula>
             <codigoPeli>SCI4856!?</codigoPeli>
             <titulo>Star Wars: El imperio contraataca</titulo>
             <saga>Star Wars</saga>
@@ -108,8 +108,8 @@
                 <apellido>Kershner</apellido>
             </director>
             <precio>3.99</precio>
-        </objeto>
-        <objeto type="pelicula">
+        </pelicula>
+        <pelicula>
             <codigoPeli>ANI4202!!</codigoPeli>
             <titulo>Shrek</titulo>
             <saga>Shrek</saga>
@@ -123,8 +123,8 @@
                 <apellido>Jenson</apellido>
             </director>
             <precio>4.99</precio>
-        </objeto>
-        <objeto type="pelicula">
+        </pelicula>
+        <pelicula>
             <codigoPeli>SCI8998*!</codigoPeli>
             <titulo>Men in black II</titulo>
             <saga>Men in black</saga>
@@ -134,8 +134,8 @@
                 <apellido>Sonnenfeld</apellido>
             </director>
             <precio>1.99</precio>
-        </objeto>
-        <objeto type="pelicula">
+        </pelicula>
+        <pelicula>
             <codigoPeli>COM8963^.</codigoPeli>
             <titulo>Intocables</titulo>
             <fecha>2011</fecha>
@@ -148,8 +148,8 @@
                 <apellido>Toledano</apellido>
             </director>
             <precio>1.99</precio>
-        </objeto>
-        <objeto type="pelicula">
+        </pelicula>
+        <pelicula>
             <codigoPeli>ANI3322?*</codigoPeli>
             <titulo>Cómo entrenar a tu dragón</titulo>
             <saga>Cómo entrenar a tu dragón</saga>
@@ -163,8 +163,8 @@
                 <apellido>DeBlois</apellido>
             </director>
             <precio>1.99</precio>
-        </objeto>
-        <objeto type="pelicula">
+        </pelicula>
+        <pelicula>
             <codigoPeli>MUS1198+?</codigoPeli>
             <titulo>Mamma Mia!</titulo>
             <fecha>2008</fecha>
@@ -173,8 +173,8 @@
                 <apellido>Lloyd</apellido>
             </director>
             <precio>2.99</precio>
-        </objeto>
-        <objeto type="pelicula">
+        </pelicula>
+        <pelicula>
             <codigoPeli>ACC9987"!</codigoPeli>
             <titulo>Django Desencadenado</titulo>
             <fecha>2013</fecha>
@@ -183,8 +183,8 @@
                 <apellido>Tarantino</apellido>
             </director>
             <precio>2.99</precio>
-        </objeto>
-        <objeto type="pelicula">
+        </pelicula>
+        <pelicula>
             <codigoPeli>FAN8223?.</codigoPeli>
             <titulo>Eclipse</titulo>
             <saga>Crepúsculo</saga>
@@ -194,26 +194,26 @@
                 <apellido>Rosenberg</apellido>
             </director>
             <precio>1.99</precio>
-        </objeto>
+        </pelicula>
 
 
-        <objeto type="videojuego">
+        <videojuego>
             <codigoVideojuego>SIM0456ªº</codigoVideojuego>
             <titulo>Animal Crossing: New Horizons</titulo>
             <saga>Animal Crossing</saga>
             <fecha>2020</fecha>
             <plataforma>Switch</plataforma>
             <precio>45.50</precio>
-        </objeto>
-        <objeto type="videojuego">
+        </videojuego>
+        <videojuego>
             <codigoVideojuego>RPG1959??</codigoVideojuego>
             <titulo>Final Fantasy IX</titulo>
             <saga>Final Fantasy</saga>
             <fecha>1999</fecha>
             <plataforma>PS1</plataforma>
             <precio>19.50</precio>
-        </objeto>
-        <objeto type="videojuego">
+        </videojuego>
+        <videojuego>
             <codigoVideojuego>VNO8858*#</codigoVideojuego>
             <titulo>Phoenix Wright: Ace Attorney</titulo>
             <saga>Ace Attorney</saga>
@@ -224,8 +224,8 @@
             <plataforma>Switch</plataforma>
             <plataforma>PC</plataforma>
             <precio>12.50</precio>
-        </objeto>
-        <objeto type="videojuego">
+        </videojuego>
+        <videojuego>
             <codigoVideojuego>VNO8859*!</codigoVideojuego>
             <titulo>Phoenix Wright: Justice for All</titulo>
             <saga>Ace Attorney</saga>
@@ -236,8 +236,8 @@
             <plataforma>Switch</plataforma>
             <plataforma>PC</plataforma>
             <precio>12.50</precio>
-        </objeto>
-        <objeto type="videojuego">
+        </videojuego>
+        <videojuego>
             <codigoVideojuego>VNO8860$!</codigoVideojuego>
             <titulo>Phoenix Wright: Trials and Tribulations</titulo>
             <saga>Ace Attorney</saga>
@@ -248,8 +248,8 @@
             <plataforma>Switch</plataforma>
             <plataforma>PC</plataforma>
             <precio>12.50</precio>
-        </objeto>
-        <objeto type="videojuego">
+        </videojuego>
+        <videojuego>
             <codigoVideojuego>RPG9998¿*</codigoVideojuego>
             <titulo>Hades</titulo>
             <fecha>2018</fecha>
@@ -258,7 +258,7 @@
             <plataforma>Switch</plataforma>
             <plataforma>PC</plataforma>
             <precio>9.99</precio>
-        </objeto>
+        </videojuego>
         
 
     </objetosEnPrestamo>
