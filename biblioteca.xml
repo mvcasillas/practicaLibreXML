@@ -99,6 +99,21 @@
             <precio>3.99</precio>
         </pelicula>
         <pelicula>
+            <codigoPeli>ACC8597!?</codigoPeli>
+            <titulo>Los Vengadores: Endgame</titulo>
+            <saga>Marvel Cinematic Universe</saga>
+            <fecha>2019</fecha>
+            <director>
+                <nombre>Anthony</nombre>
+                <apellido>Russo</apellido>
+            </director>
+            <director>
+                <nombre>Joe</nombre>
+                <apellido>Russo</apellido>
+            </director>
+            <precio>3.99</precio>
+        </pelicula>
+        <pelicula>
             <codigoPeli>SCI4856!?</codigoPeli>
             <titulo>Star Wars: El imperio contraataca</titulo>
             <saga>Star Wars</saga>
