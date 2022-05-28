@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
+<!--El primer código de 3 letras indica el género y tiene que ser alguna
+de esas combinaciones-->
 <xs:simpleType name="codigoObjeto">
     <xs:restriction base="xs:string">
-        <xs:pattern value="[A-Z]{3}[0-9]{4}[^\sA-Za-z0-9]{2}"/>
+        <xs:pattern value="(ROM|HIS|FAN|PSI|SCI|ACC|ANI|COM|MUS|SIM|RPG|VNO|ROG|TER|DRA)[0-9]{4}[^\sA-Za-z0-9]{2}"/>
     </xs:restriction>
 </xs:simpleType>
 
@@ -21,6 +23,8 @@
     </xs:restriction>
 </xs:simpleType>
 
+<!--El patrón de nombre permite que haya varias iniciales como en el caso
+de George R. R. -->
 <xs:complexType name="persona">
     <xs:sequence>
         <xs:element name="nombre" minOccurs="1" maxOccurs="unbounded">
@@ -91,15 +95,6 @@
     </xs:sequence>
 </xs:complexType>
 
-<!-- 
-<xs:complexType name="objeto">
-    <xs:choice>
-        <xs:element name="libro"/>
-        <xs:element name="pelicula"/>
-        <xs:element name="videojuego"/>
-    </xs:choice>
-</xs:complexType> -->
-
 <xs:simpleType name="codigoSocio">
     <xs:restriction base="xs:string">
         <xs:pattern value="[A-Z]{3}[0-9]{4}[^\sA-Za-z0-9]"/>
@@ -113,33 +108,33 @@
 </xs:simpleType>
 
 <xs:complexType name="socio">
-            <xs:sequence>
-                <xs:element name="codigoSocio" type="codigoSocio"/>
-                <xs:element name="dni" type="dni"/>
-                <xs:element name="nombreCompleto" type="persona"/>
-                <xs:element name="edad">
-                    <xs:simpleType>
-                        <xs:restriction base="xs:integer">
-                            <xs:minInclusive value="12"/>
-                            <xs:maxInclusive value="150"/>
-                        </xs:restriction>
-                    </xs:simpleType>
-                </xs:element>
-                <xs:element name="genero">
-                    <xs:simpleType>
-                        <xs:restriction base="xs:string">
-                            <xs:pattern value="masculino|femenino|neutro"/>
-                        </xs:restriction>
-                    </xs:simpleType>
-                </xs:element>
-                <xs:element name="fechaAlta">
-                    <xs:simpleType>
-                        <xs:restriction base="xs:string">
-                            <xs:pattern value="[0-9]{2}\-[0-9]{2}\-[0-9]{4}"/>
-                        </xs:restriction>
-                    </xs:simpleType>
-                </xs:element>
-        </xs:sequence>
+    <xs:sequence>
+        <xs:element name="codigoSocio" type="codigoSocio"/>
+        <xs:element name="dni" type="dni"/>
+        <xs:element name="nombreCompleto" type="persona"/>
+            <xs:element name="edad">
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                        <xs:minInclusive value="12"/>
+                        <xs:maxInclusive value="150"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        <xs:element name="genero">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:pattern value="masculino|femenino|otro"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:element>
+        <xs:element name="fechaAlta">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:pattern value="[0-9]{2}\-[0-9]{2}\-[0-9]{4}"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:element>
+    </xs:sequence>
 </xs:complexType>
 
 

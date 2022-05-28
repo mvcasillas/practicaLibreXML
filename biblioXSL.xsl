@@ -104,6 +104,18 @@
                             </tr>
                     </xsl:for-each>
                 </table>
+                
+                <!--ver a ver si se pueden ordenar por número de veces-->
+                <h2>Sagas más populares</h2>
+                <ol>
+                    <xsl:for-each select="biblioteca/objetosEnPrestamo/libro">
+                        <li>
+                            <xsl:value-of select="saga"/>
+                        </li>
+                    </xsl:for-each>
+                </ol>
+
+
             </body>
         </html>
     </xsl:template>
