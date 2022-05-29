@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="biblioXSL.xsl"?>
+<!DOCTYPE biblioteca>
+
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="biblioSchema.xsd">
+
+    <objetosEnPrestamo>
+        <libro>
+            <codigoLibro>SCI8564*¿</codigoLibro>
+            <titulo>Los juegos del hambre</titulo>
+            <saga>Los juegos del hambre</saga>
+            <autor>
+                <nombre>Suzanne</nombre>
+                <apellido>Collins</apellido>
+            </autor>
+            <precio>15.50</precio>
+            <fecha>2008</fecha>
+        </libro>
+        <libro>
+            <codigoLibro>SCI8565*!</codigoLibro>
+            <titulo>En llamas</titulo>
+            <saga>Los juegos del hambre</saga>
+            <autor>
+                <nombre>Suzanne</nombre>
+                <apellido>Collins</apellido>
+            </autor>
+            <precio>15.50</precio>
+            <fecha>2009</fecha>
+        </libro>
+        <libro>
+            <codigoLibro>SCI8566!¿</codigoLibro>
+            <titulo>Sinsajo</titulo>
+            <saga>Los juegos del hambre</saga>
+            <autor>
+                <nombre>Suzanne</nombre>
+                <apellido>Collins</apellido>
+            </autor>
+            <precio>15.50</precio>
+            <fecha>2010</fecha>
+        </libro>
+        
+        <libro>
+            <codigoLibro>FAN1445+)</codigoLibro>
+            <titulo>Harry Potter y la Piedra Filosofal</titulo>
+            <saga>Harry Potter</saga>
+            <autor>
+                <nombre>J. K.</nombre>
+                <apellido>Rowling</apellido>
+            </autor>
+            <precio>15</precio>
+            <fecha>1997</fecha>
+        </libro>
+        
+        <pelicula>
+            <codigoPeli>ANI8872!!</codigoPeli>
+            <titulo>Red</titulo>
+            <fecha>2022</fecha>
+            <director>
+                <nombre>Domee</nombre>
+                <apellido>Shi</apellido>
+            </director>
+            <precio>11.99</precio>
+        </pelicula>
+        <pelicula>
+            <codigoPeli>ANI8879.*</codigoPeli>
+            <titulo>Coco</titulo>
+            <fecha>2017</fecha>
+            <director>
+                <nombre>Adrián</nombre>
+                <apellido>Molina</apellido>
+            </director>
+            <director>
+                <nombre>Lee</nombre>
+                <nombre>Edward</nombre>
+                <apellido>Unkrich</apellido>
+            </director>
+            <precio>11.99</precio>
+        </pelicula>
+        
+        <videojuego>
+            <codigoVideojuego>SIM0496ª!</codigoVideojuego>
+            <titulo>Story of Seasons: Trio of towns</titulo>
+            <saga>Harvest Moon</saga>
+            <fecha>2016</fecha>
+            <plataforma>N3DS</plataforma>
+            <precio>19.90</precio>
+        </videojuego>
+        <videojuego>
+            <codigoVideojuego>RPG8993()</codigoVideojuego>
+            <titulo>Leyendas Pokémon: Arceus</titulo>
+            <saga>Pokémon</saga>
+            <fecha>2022</fecha>
+            <plataforma>Switch</plataforma>
+            <precio>45.90</precio>
+        </videojuego>
+        
+
+    </objetosEnPrestamo>
+
+    <socios>
+        <socio>
+            <codigoSocio>LOL8888-</codigoSocio>
+            <dni>12345678B</dni>
+            <nombreCompleto>
+                <nombre>María</nombre>
+                <nombre>José</nombre>
+                <apellido>García</apellido>
+                <apellido>Pérez</apellido>
+            </nombreCompleto>
+            <edad>28</edad>
+            <genero>femenino</genero>
+            <fechaAlta>15-02-2020</fechaAlta>
+        </socio>
+    </socios>
+</biblioteca>
