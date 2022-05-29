@@ -3,11 +3,23 @@ body{
     background: linear-gradient(0deg, rgba(127,101,173,1) 8%, rgba(73,56,126,1) 93%);
     color:white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: flex-start;
+}
+
+h1{
+    text-align: center;
+    width: 90%;
+    border-bottom: 1px solid white;
 }
 
 .tabla{
     border: 2px solid white;
-    width: 60%;
+    border-collapse: collapse;
+    width: auto;
 }
 
 th{
@@ -16,8 +28,35 @@ th{
     font-weight: bolder;
 }
 
+td{
+    padding: 3px 15px;
+}
+
 .separadortabla{
     background-color: rgba(169, 168, 243, 0.342);
     font-weight: bolder;
     font-size: 1.2em;
+}
+
+div#contenedorlistas{
+    padding: 2px 15px;
+    margin: 2vw;
+}
+
+h2{
+    border-bottom: 1px solid white;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+ul, ol{
+    margin-top:8px;
+}
+
+.hoversuave:hover{
+    background-color: rgba(255, 255, 255, 0.162);
+}
+
+ul#sinIcono{
+    list-style: none;
 }

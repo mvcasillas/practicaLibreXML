@@ -23,21 +23,21 @@ de esas combinaciones-->
     </xs:restriction>
 </xs:simpleType>
 
-<!--El patrón de nombre permite que haya varias iniciales como en el caso
-de George R. R. -->
+<!--El patrón de nombre/apellido permite que haya varias iniciales como en el caso
+de George R. R. Martin o separarlo poniendo varias etiquetas de nombre/apellido-->
 <xs:complexType name="persona">
     <xs:sequence>
         <xs:element name="nombre" minOccurs="1" maxOccurs="unbounded">
             <xs:simpleType>
                 <xs:restriction base="xs:string">
-                    <xs:pattern value="[A-Za-zÁÉÍÓÚáéíóú]{2,}(\s[A-Z]\.)*"/>
+                    <xs:pattern value="[A-Za-zÁÉÍÓÚáéíóú]{1,}\.?(\s[A-ZÁÉÍÓÚ]\.)*"/>
                 </xs:restriction>
             </xs:simpleType>
         </xs:element>
         <xs:element name="apellido" minOccurs="1" maxOccurs="unbounded">
             <xs:simpleType>
                 <xs:restriction base="xs:string">
-                    <xs:pattern value="[A-Za-zÁÉÍÓÚáéíóú]{2,}"/>
+                    <xs:pattern value="[A-Za-zÁÉÍÓÚáéíóú]{1,}\.?(\s[A-ZÁÉÍÓÚ]\.)*"/>
                 </xs:restriction>
             </xs:simpleType>
         </xs:element>
